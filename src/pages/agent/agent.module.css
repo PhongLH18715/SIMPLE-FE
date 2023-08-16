@@ -1,0 +1,103 @@
+
+.content_dashboard{
+    width: 100%;
+}
+.table_dashBoard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 20px 40px
+    /* gap: 20px;
+    align-items: center;
+    justify-content: center; */
+}
+.gen_dasBoard_item{
+    background: white;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 16px;
+}
+.dashBoard_time{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.table_sale{
+    display: flex;
+    padding: 60px 40px;
+    gap: 16px;
+}
+.table_bestSeller{
+    flex: 1;
+    border: 1px solid black;
+    padding: 24px 16px 160px; 
+    border-radius: 12px;
+}
+.table_bestShipper{
+    flex: 1;
+    border: 1px solid black;
+    padding: 24px 16px 160px;
+    border-radius: 12px;
+}
+
+
+/* Profile */
+.profile_content{
+    display: flex;
+    padding: 24px 40px;
+}
+.user_avatar{
+    flex: 1;
+    text-align: center;
+}
+.user_avatar_item{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    display: block;
+    border: 4px solid black;
+    margin: 0 auto;
+}
+.user_content{
+    padding: 10px 40px;
+    flex: 2;
+}
+.form_item_name{
+    display: flex;
+    gap: 40px;
+}
+.form_item{
+    padding-bottom: 24px;
+}
+.btn_profile{
+    padding-top: 20px;
+}
+.btn_profile button{
+    display: flex;
+    align-items: center;
+}
+
+/* order manager */
+.order_manager_content{
+    padding: 24px 40px;
+    width: 100%;
+}
+
+/* order manager shipper */
+.shipper_manager_content{
+    padding: 24px 40px;
+}
+
+/* product mamanger */
+.product_manager{
+    padding: 24px 40px;
+}
+.product_btn{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 12px;
+}

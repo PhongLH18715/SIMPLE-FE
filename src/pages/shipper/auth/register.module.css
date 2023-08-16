@@ -1,0 +1,20 @@
+.login_content{
+    display: flex;
+    background-color: #F9F9F9;
+}
+
+.img_login img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.img_login_form{
+    padding-top: 100px;
+}
+.img_login_form button{
+    background-color: #169BD5;
+    border: #797979;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;    
+}

@@ -1,0 +1,67 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/cache": "11.7.1",
+        "@emotion/react": "11.7.1",
+        "@emotion/styled": "11.6.0",
+        "@mui/icons-material": "5.4.1",
+        "@mui/material": "5.4.1",
+        "@mui/styled-engine": "5.4.1",
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "antd": "^4.23.4",
+        "axios": "^0.26.1",
+        "chart.js": "^3.9.1",
+        "chroma-js": "2.4.2",
+        "classnames": "^2.3.2",
+        "date-fns": "^2.30.0",
+        "prop-types": "15.8.1",
+        "rc-calendar": "^9.15.11",
+        "react": "^17.0.2",
+        "react-chartjs-2": "^4.3.1",
+        "react-dom": "^17.0.2",
+        "react-highlight-words": "^0.18.0",
+        "react-owl-carousel": "^2.3.3",
+        "react-player": "^2.11.0",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "5.0.0",
+        "react-table": "7.7.0",
+        "redux": "^4.1.2",
+        "socket.io-client": "^4.5.0",
+        "stylis": "4.0.13",
+        "stylis-plugin-rtl": "2.1.1",
+        "sweetalert2": "^11.4.8",
+        "timeago.js": "^4.0.2",
+        "use-query-params": "^1.2.3",
+        "web-vitals": "^2.1.4",
+        "yup": "0.32.11"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

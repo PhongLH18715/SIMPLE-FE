@@ -1,0 +1,14 @@
+.not__found {
+    height: 700px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not__found p {
+    font-size: 50px;
+    color: rgb(85, 3, 3);
+    font-weight: 500;
+    text-shadow: 1px 1px 2px red;
+}

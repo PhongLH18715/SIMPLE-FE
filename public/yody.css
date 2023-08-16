@@ -1,0 +1,117 @@
+.form__login{
+    text-align: center;
+    font-family: 'SVN-Gilroy';
+    background-color: white;
+}
+.form__login h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #595959;
+}
+
+.form__login form h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #11006F;
+}
+.form__login form h2 span{
+    color: #FCAF17;
+}
+.form__login form input{
+    width: 450px;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 14px;
+}
+.form__login form .pass{
+    position: relative;
+}
+.form__login form .pass img{
+    position: absolute;
+    background: white;
+    transform: translate(-80px, 17px);
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+}
+.form__login form input:focus-visible{
+    outline: none;
+    border-color: #8C8C8C;
+}
+.form__login form .button .login button{
+    width: 482px;
+    padding: 15px;
+    background: #FCAF17;
+    margin: 15px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form__login form .button .forgot__pass button{
+    cursor: pointer;
+    color: #FCAF17;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    margin-bottom: 38px;
+}
+.face p{
+    background-color: #DDE1E3;
+    height: 1px;
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+}
+.face p span{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #595959;
+    font-weight: 300;
+    background-color: white;
+    padding: 5px;
+}
+.face .logo {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.face .logo button img{
+    height: 22px;
+}
+.face .logo button{
+    width: 120px;
+    height: 48px;
+    background: transparent;
+    border-radius: 24px;
+    border: 2px solid #F0F0F0;
+    margin-right: 24px;
+    font-size: 14px;
+    color: #595959;
+    font-weight: 500;
+    cursor: pointer;
+}
+.face .logo button span{
+    margin-left: 10px;
+    display: inline-block;
+    transform: translateY(-5px);
+}
+.register{
+    margin-top: 36px;
+}
+.register p{
+    color: #595959;
+    font-size: 16px;
+    font-weight: 300;
+}
+.register p span{
+    color: #FCAF17;
+    cursor: pointer;
+}

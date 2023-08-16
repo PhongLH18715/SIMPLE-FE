@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ant-layout-content{
+    /* overflow: auto !important;
+    padding-left: 30px; */
+    background: white;
+}
+/* .d-flex{
+    display: initial !important;
+    width: 100%;
+
+} */
+
+h3{
+    font-size: 1.5rem; 
+}
+
+
+
+/* Header */
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap");
+@import url("./components/Body/auth/auth.css");
+@import url("./components/Body/Profile/profile.css");
+@import url("./components/CoursesBody/CoursesItem/coursesDetail.css");
+@import url("./components/CoursesBody/Trainer/tutorialManager.css");
+@import url("./components/CoursesBody/CoursesItem/tutorialDetail.css");
+@import url("./components/CoursesBody/Trainer/dashboard.css");
+@import url("./components/CoursesBody/User/checkBody.css");
+@import url("./components/CoursesBody/User/coursesOwner.css");
+@import url("./components/CoursesBody/User/favorite.css");
+@import url("./components/CoursesBody/User/discovery.css"); */
